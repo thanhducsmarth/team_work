@@ -1,0 +1,39 @@
+.home5 {
+    width: 100%;
+    height: 120vh;
+    background-color: #eff0f1;
+    position: relative;
+}
+
+.home5_top {
+    position: relative;
+}
+
+.all_home5_second_item {
+    position: absolute;
+    top: 0;
+}
+
+.content_home5_second {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content_home5_second h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: $primary;
+    padding: 100px 120px 20px 120px;
+}
+
+.content_home5_second p {
+    color: $font-done;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    padding: 20px 120px 20px 120px;
+}

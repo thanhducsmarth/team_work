@@ -1,0 +1,51 @@
+.content_name_header_home p {
+    cursor: pointer;
+    animation: slideLeft 1.5s ease;
+}
+
+.content_icon_header_home button {
+    animation: slideCenter 2s ease;
+}
+
+@keyframes slideCenter {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.content_icon_header_home img {
+    cursor: pointer;
+    animation: slideRight 1.5s ease;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+//
+.content_home4 h3 {
+    animation: slideLeft 1.5s ease;
+}

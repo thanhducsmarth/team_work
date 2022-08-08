@@ -1,0 +1,41 @@
+.home2 {
+    width: 100%;
+    height: 75vh;
+    background-color: $font-letter;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_home2 {
+    width: 50%;
+}
+
+.right_home2 {
+    width: 50%;
+}
+
+.img_home2 {
+    width: 90%;
+    padding-left: 120px;
+}
+
+.content_home2 {
+    padding-right: 120px;
+    padding-top: 70px;
+}
+
+.content_home2 h3 {
+    color: $primary;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.content_home2 p {
+    line-height: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 40px;
+    color: $font-done;
+}

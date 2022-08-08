@@ -1,0 +1,144 @@
+.conversation {
+    background-color: $font-letter;
+    height: 140vh;
+    width: 100%;
+}
+
+.content_conversation {
+    padding: 50px 120px;
+}
+
+.font_content {
+    color: $second_leter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: center;
+}
+
+.content_font {
+    padding-top: 30px;
+    color: $font-done;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+.flex_conversation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 220px;
+}
+
+.flex_conversation_item {
+    width: 330px;
+    height: 390px;
+    background-color: $font-letter;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
+}
+
+.img_conversation img {
+    width: 330px;
+    border-radius: 10px;
+}
+
+.content_flex_conversation {
+    padding: 10px 10px;
+}
+
+.content_flex_conversation h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.005em;
+    color: $font-done;
+}
+
+.content_flex_conversation p {
+    padding: 10px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: $font_done2;
+}
+
+.content_icon_conversation p {
+    color: $second_leter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    right: 0;
+    margin-top: -30px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.scroll_bar {
+    height: 20px;
+    background-color: $scroll-bar;
+    margin: 50px 320px;
+    border-radius: 10px;
+}
+
+.scroll_bar_in {
+    width: 380px;
+    height: 20px;
+    background-color: $primary;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.final_conversation h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 125%;
+    text-align: center;
+    color: $primary;
+}
+
+.final_conversation p {
+    padding: 20px 120px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: $font-done;
+}
+
+.input_conversation input {
+    width: 70%;
+    height: 40px;
+    border: 1px solid $font-letter;
+    background-color: $input;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+    color: $font-letter;
+}
+
+.input_conversation button {
+    width: 200px;
+    height: 44px;
+    position: absolute;
+    border: 1px solid $font-letter;
+    background-color: $second_leter;
+    color: $input;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.input_conversation {
+    padding: 50px 340px;
+}

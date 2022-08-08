@@ -1,0 +1,301 @@
+.header_about_us {
+    width: 100%;
+    height: 100vh;
+    background-color: $font-letter;
+}
+
+.header_aboutus {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.img_about_us {
+    width: 68.4%;
+    bottom: 0;
+    display: inline-flex;
+}
+
+.img_about_us img {
+    width: 100%;
+}
+
+.content_about_us {
+    position: absolute;
+    width: 31.6%;
+    right: 15%;
+    padding-bottom: 130px;
+}
+
+.content_about_us h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: $second_leter;
+}
+
+.content_about_us p {
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: $font-done;
+}
+
+.img_about_us_second img {
+    width: 100%;
+}
+
+// ///about_us_second
+.about_us_second {
+    width: 100%;
+    height: 125vh;
+    position: relative;
+    background-color: $third-color;
+}
+
+.card_active {
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card_active h1 {
+    text-align: center;
+}
+
+.card_active h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: $primary;
+}
+
+.card_active p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: $font-done;
+}
+
+.about_us_second h1 {
+    font-size: 3.2rem;
+    padding-top: 2rem;
+}
+
+h1+p {
+    font-size: 1.8rem;
+    padding: 2rem 0 3rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    margin: 2rem;
+    transform-style: preserve-3d;
+    transform: perspective(100rem);
+    cursor: pointer;
+}
+
+.containers {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+    width: 20rem;
+    height: 26rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 4rem;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+    background: linear-gradient(hsla(0, 0%, 100%, 0.1), hsla(0, 0%, 100%, 0.1)), url("https://images.unsplash.com/photo-1559113513-d5e09c78b9dd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9");
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem 0.5rem hsla(0, 0%, 0%, 0.2);
+    transition: transform 0.6s 1s;
+}
+
+.containers::before,
+.containers::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #fff;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.containers::before {
+    top: 2rem;
+    right: 2rem;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.containers::after {
+    bottom: 2rem;
+    left: 2rem;
+    border-top-width: 0;
+    border-right-width: 0;
+}
+
+.containers--active {
+    transition: none;
+}
+
+.containers--2 {
+    filter: hue-rotate(80deg) saturate(140%);
+}
+
+.containers--3 {
+    filter: hue-rotate(160deg) saturate(140%);
+}
+
+.containers p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 2.2rem;
+}
+
+.wrap:hover .container::before,
+.wrap:hover .container::after {
+    width: calc(100% - 4rem);
+    height: calc(100% - 4rem);
+}
+
+.abs-site-link {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: hsla(0, 0%, 0%, 0.6);
+    font-size: 1.6rem;
+}
+
+// //about_us_third
+.about_us_third {
+    width: 100%;
+    height: 100vh;
+    background-color: $font-letter;
+}
+
+.all_about_us_third {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 120px;
+}
+
+.video_left {
+    width: 50%;
+}
+
+.video_left img {
+    width: 100%;
+}
+
+.content_right_about {
+    width: 50%;
+    padding-left: 40px;
+}
+
+.content_top_about_us h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: $second_leter;
+}
+
+.content_top_about_us p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: $font-done;
+    padding-top: 20px;
+}
+
+.icon_bottom_about_us {
+    display: flex;
+    gap: 100px;
+    padding-top: 10px;
+}
+
+.center_icon_about {
+    display: flex;
+    padding-top: 40px;
+}
+
+.icon_true {
+    font-size: 40px;
+    color: $primary;
+}
+
+.center_icon_about p {
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 125%;
+    color: $primary;
+}
+
+.button_about {
+    padding-top: 20px;
+}
+
+// ABOUT US 4
+.about_us4 {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+
+.about_us4_top {
+    position: relative;
+}
+
+.about_us4_item {
+    position: absolute;
+    top: 0;
+}
+
+.content_about_us4 {
+    text-align: center;
+    padding-top: 145px;
+}
+
+.content_about_us4 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: $primary;
+}
+
+.content_about_us4 p {
+    color: $font-done;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    padding: 20px 120px 20px 120px;
+}

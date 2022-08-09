@@ -1,7 +1,7 @@
 .blog {
     background-color: $third-color;
     width: 100%;
-    height: 120vh;
+
 }
 
 .content_blog {
@@ -29,8 +29,10 @@
 
 .flex_blog {
     display: flex;
-    justify-content: space-between;
-    padding: 70px 260px;
+    margin-left: auto;
+    margin-right:auto; 
+    width: 900px;
+    margin-top: 70px;
 }
 
 .blog_items {
@@ -38,6 +40,7 @@
     height: 330px;
     background-color: $secondary;
     border-radius: 25px;
+    margin-left: 10px;
 }
 
 .footer_partner1 {
@@ -122,6 +125,7 @@
 .footer_all_2 {
     height: 20%;
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
 }

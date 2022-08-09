@@ -1,7 +1,7 @@
 .partner {
     width: 100%;
-    height: 250vh;
     background-color: $font-letter;
+    position: relative;
 }
 
 .all_partner {
@@ -109,9 +109,12 @@
     position: relative;
 }
 
+.img_partner_second .img{
+    float: right;
+}
+
 .img_CEO {
     position: absolute;
-    width: 77%;
 }
 
 .img_CEO img {
@@ -170,13 +173,13 @@
 
 .content_partner3 {
     padding-top: 230px;
-    width: 600px;
+    width: 450px;
 }
 
 .content_partner3 h3 {
     font-style: normal;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 35px;
     line-height: 125%;
     color: $second_leter;
     text-align: center;
@@ -187,20 +190,25 @@
     line-height: 23px;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     color: $font-done;
     letter-spacing: -0.005em;
 }
 
 .content_partner3 button {
-    margin-left: 200px;
+    margin-left: 140px;
     margin-top: 10px;
 }
 
 .footer_all_1 {
+    margin-top: 100px;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.end{
+    height: 30px;
 }

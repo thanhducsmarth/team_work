@@ -1,7 +1,7 @@
 .conversation {
     background-color: $font-letter;
-    height: 140vh;
     width: 100%;
+    position: relative;
 }
 
 .content_conversation {
@@ -30,8 +30,9 @@
 
 .flex_conversation {
     display: flex;
-    justify-content: space-between;
-    padding: 0 220px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
 }
 
 .flex_conversation_item {
@@ -40,6 +41,8 @@
     background-color: $font-letter;
     border-radius: 10px;
     filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .img_conversation img {
@@ -74,16 +77,20 @@
     font-weight: 400;
     font-size: 14px;
     right: 0;
-    margin-top: -30px;
+    margin-top: -20px;
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: 230px;
 }
 
 .scroll_bar {
     height: 20px;
+    width: 700px;
     background-color: $scroll-bar;
-    margin: 50px 320px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .scroll_bar_in {
@@ -124,6 +131,7 @@
     line-height: 28px;
     letter-spacing: -0.005em;
     color: $font-letter;
+    margin-top: 2px;
 }
 
 .input_conversation button {
@@ -140,5 +148,8 @@
 }
 
 .input_conversation {
-    padding: 50px 340px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
 }

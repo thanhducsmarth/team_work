@@ -7,13 +7,13 @@
 
 .headers {
     position: relative;
-    text-align: center;
+    // text-align: center;
     background: linear-gradient(60deg, $primary 0%, $primary 100%);
     color: white;
 }
 
 .inner-header {
-    height: 65vh;
+    height: 80vh;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    // text-align: center;
 }
 
 .waves {

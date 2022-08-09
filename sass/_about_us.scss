@@ -2,6 +2,7 @@
     width: 100%;
     position: relative;
     height: 100vh;
+
 }
 
 // .header_aboutus {
@@ -224,6 +225,7 @@ h1+p {
 .content_top_about_us p {
     font-style: normal;
     font-weight: 500;
+    text-align: justify;
     font-size: 18px;
     line-height: 125%;
     color: $font-done;
@@ -238,10 +240,11 @@ h1+p {
 
 .center_icon_about {
     display: flex;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .icon_true {
+    margin-top: -3px;
     font-size: 40px;
     color: $primary;
 }
@@ -263,7 +266,6 @@ h1+p {
 .about_us4 {
     width: 100%;
     position: relative;
-    background-color: antiquewhite;
 }
 
 .about_us4_top {

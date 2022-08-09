@@ -1,0 +1,43 @@
+.content_contact {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.right_content_contact{
+    flex: 1;
+    margin-left: 120px;
+    padding-right: 20px;
+}
+
+.left_content_contact{
+  flex: 1;
+}
+
+.left_content_contact img {
+    width: 608px;
+    height: 400px;
+    display: flex;
+    float: right;
+    padding-right: 120px;
+}
+
+.center_contact h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 125%;
+    color: $secondary;
+    padding-bottom: 20px;
+}
+
+.center_contact p {
+    font-style: normal;
+    text-align: justify;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: $font-done;
+}

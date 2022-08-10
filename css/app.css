@@ -802,6 +802,7 @@ img {
 
 .content_flex_conversation {
   padding: 10px 10px;
+  margin-bottom: 10px;
 }
 
 .content_flex_conversation h5 {
@@ -813,23 +814,28 @@ img {
 }
 
 .content_flex_conversation p {
-  padding: 10px 0px;
+  padding: 10px 0px 2px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
   color: #333333;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: "...";
 }
 
 .content_icon_conversation p {
+  position: absolute;
   color: #f07e2a;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  right: 0;
-  margin-top: -20px;
   cursor: pointer;
-  margin-left: 230px;
+  bottom: 5%;
+  right: 5%;
 }
 
 .scroll_bar {

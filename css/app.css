@@ -28,7 +28,7 @@
 
 .nav .nav-items li a {
   text-decoration: none;
-  margin-left: 40px;
+  margin-left: 39px;
   font-size: 22px;
   font-family: "Mulish", sans-serif;
   font-style: normal;
@@ -198,7 +198,7 @@ img {
 }
 
 .home2 {
-  width: 100%;
+  min-width: 1200px;
   position: relative;
 }
 

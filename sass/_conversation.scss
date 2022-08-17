@@ -5,7 +5,9 @@
 }
 
 .content_conversation {
-    padding: 50px 120px;
+    padding: 50px 0;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
 }
 
 .font_content {
@@ -111,7 +113,9 @@
 }
 
 .final_conversation p {
-    padding: 20px 120px;
+    padding: 20px 0;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
     text-align: center;
     font-style: normal;
     font-weight: 500;

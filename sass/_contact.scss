@@ -7,8 +7,7 @@
 
 .right_content_contact{
     flex: 1;
-    margin-left: 120px;
-    padding-right: 20px;
+    padding-left: calc(calc(100% - 1200px)/2);
 }
 
 .left_content_contact{
@@ -19,8 +18,7 @@
     width: 608px;
     height: 400px;
     display: flex;
-    float: right;
-    padding-right: 120px;
+    padding-right: calc(calc(100% - 1200px)/2);
 }
 
 .center_contact h2 {

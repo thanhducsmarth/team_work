@@ -1,5 +1,5 @@
 .home2{
-    min-width: 1200px;
+    width: 100%;
     position: relative;
 }
 
@@ -8,7 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
 }
 
 .home2 .left_home2 img{

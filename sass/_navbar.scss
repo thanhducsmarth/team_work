@@ -7,7 +7,8 @@
     position: fixed;
     display: flex;
     justify-content: space-between;
-    padding: 0 120px;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
     height: 70px;
     align-items: center;
     background-color: rgb(255, 255, 255);

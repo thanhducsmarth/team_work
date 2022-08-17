@@ -176,7 +176,8 @@ img {
     display: grid;
     align-items: center;
     transform: translateY(-10%);
-    padding: 0 120px;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
     height: 100vh;  
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
@@ -807,7 +808,8 @@ button.vjs-play-control.vjs-control.vjs-button {
 .content_testimonials2 {
     text-align: center;
     transform: translateY(80%);
-    padding: 0 120px;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
 }
 
 .content_testimonials2 h3 {

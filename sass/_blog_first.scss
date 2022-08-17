@@ -1,0 +1,149 @@
+.Blog_first{
+    width: 100%;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.img_blog_first {
+    position: relative;
+}
+
+.form_blog {
+    position: absolute;
+    top: 0;
+}
+
+.Blog_first .form_blog .square_form{
+    width: 658.07px;
+    height: 611.89px;
+    background: #D9D9D9;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.Blog_first .square_form .img_square {
+    height: 376.62px;
+    width: 658.07px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.Blog_first .square_form .content_square {
+    width: 658.07px;
+    height: 235.27px;
+    left: 120px;
+    top: 1251.63px;
+    background: #FCFCFC;
+    border-radius: 20px;
+}
+
+.Blog_first .square_form .content_square h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 125%;
+    color: $primary;
+}
+
+.Blog_first .form_blog h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 125%;
+    color: $primary;
+}
+
+.Blog_first .form_blog p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: $font-done;
+}
+
+.Blog_first .form_blog span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: $primary;
+}
+
+.form_blog{
+    width: 100%;
+}
+
+.Blog_first .all_form_blog {
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Blog_first .right_form_blog input{
+    width: 305px;
+    height: 72.05px;
+    border: none;
+    background-color: $font-form;
+}
+
+.Blog_first .right_form_blog ::placeholder {
+    color: $font-letter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px; 
+}
+
+.btn_button{
+    width: 183px;
+    height: 72.05px;
+    background-color: $primary;
+    border: none;
+    color: $font-letter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.Blog_first .blog_form_item {
+    margin-top: 18px;
+    width: 488px;
+    height: 160.31px;
+    background: $font-letter;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+}
+
+.Blog_first .blog_form_item .left_form_item{
+    flex: 1;
+    background: $font-item;
+    border-radius: 10px;
+}
+
+.Blog_first .blog_form_item .right_form_content{
+    flex: 2;
+}
+
+.blog_form_item .right_form_content h6{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 125%;
+    color: $primary;
+}
+
+.Blog_first .form_blog .font-text {
+    padding: 80px 0 30px 0;
+    padding-left: calc(calc(100% - 1200px)/2);
+}
+
+.Blog_first .center_square_items{
+    padding: 40px 18px;
+}
+
+
+
+

@@ -13,7 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 120px;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
 }
 
 .content_center_home4 h3 {
@@ -35,7 +36,7 @@
 }
 
 .flex_home4 {
-    padding-left: 64px;
+    padding-left: calc(calc(100% - 800px)/2);
 }
 
 .top_rectangles_home4 {

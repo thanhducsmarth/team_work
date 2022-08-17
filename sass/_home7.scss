@@ -18,7 +18,9 @@
 }
 
 .content_blog p {
-    padding: 20px 155px;
+    padding-top: 20px;
+    padding-left: calc(calc(100% - 1200px)/2);
+    padding-right: calc(calc(100% - 1200px)/2);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;

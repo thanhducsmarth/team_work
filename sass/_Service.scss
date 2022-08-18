@@ -39,9 +39,15 @@
 
 .content {
     position: relative;
-    height: 20vh;
-    text-align: center;
+    height: 70vh;
+    text-align: justify;
     background-color: white;
+    color:#222;
+}
+.content p {
+    color: #222;
+    margin: 5vh 10vw;
+    font-style: normal;
 }
 
 

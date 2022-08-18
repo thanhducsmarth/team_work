@@ -16,7 +16,6 @@
   left: 0;
   z-index: 99999;
 }
-
 .nav .nav-items li {
   display: inline-block;
 }
@@ -864,6 +863,7 @@ img {
   line-height: 125%;
   text-align: center;
   color: #f07e2a;
+  margin-top: 2%;
 }
 
 .final_conversation p {
@@ -1201,9 +1201,16 @@ h1 + p {
 
 .content {
   position: relative;
-  height: 20vh;
-  text-align: center;
+  height: 70vh;
+  text-align: justify;
   background-color: white;
+  color: #222;
+}
+
+.content p {
+  color: #222;
+  margin: 5vh 10vw;
+  font-style: normal;
 }
 
 /* Animation */
@@ -2995,6 +3002,145 @@ button.vjs-play-control.vjs-control.vjs-button {
   line-height: 23px;
   letter-spacing: -0.005em;
   color: #222222;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+}
+
+.row {
+  height: 80%;
+  padding: 0% 5%;
+}
+
+[class*=col-] {
+  float: left;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.block_conversation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex_conversation + .flex_conversation {
+  padding-top: 10px;
+}
+
+.topic {
+  background-color: #fcfcfc;
+  width: 100%;
+  position: relative;
+}
+
+.block_topic {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  color: red;
+  box-sizing: border-box;
+}
+
+.block_topic h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  color: #f07e2a;
+  margin: 0.5em;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.hot_topic {
+  border: 1px blue solid;
+  height: 100%;
+}
+
+.hot_topic_item {
+  border: 1px blue solid;
+  margin: 2em;
+}
+
+.current_topic {
+  border: 1px red solid;
+  height: 100%;
+}
+
+.block_current_topic {
+  border: 1px yellow solid;
+  height: calc(90% - 20px);
+  overflow-y: auto;
+}
+
+.current_topic_item {
+  border: 1px red solid;
+  margin: 10px 2em;
+  height: 33%;
+}
+
+.searching_bar {
+  border: 1px green solid;
+  margin: 10px;
+  height: 10%;
 }
 
 /*# sourceMappingURL=app.css.map */
